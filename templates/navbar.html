@@ -1,0 +1,32 @@
+{% load static %}
+
+<!-- Header Section -->
+<header class="header">
+    <div class="container container--narrow">
+        <a href="{% url 'profiles' %}" class="header__logo">
+            <img src="{% static 'images/logoman.png' %} " alt="هم دانشگاهی" />
+        </a>
+
+        <nav class="header__nav">
+            <input type="checkbox" id="responsive-menu" />
+            <label for="responsive-menu" class="toggle-menu">
+                <span>منو</span>
+                <div class="toggle-menu__lines"></div>
+            </label>
+            <ul class="header__menu">
+                <li class="header__menuItem"><a href="{% url 'profiles' %}">دانشجویان</a></li>
+                <li class="header__menuItem"><a href="{% url 'projects' %}">مقاله‌ها</a></li>
+
+
+
+                {% if request.user.is_authenticated %}
+                <li class="header__menuItem"><a href="{% url 'inbox' %}">پبام‌ها</a></li>
+                <li class="header__menuItem"><a href="{% url 'account' %}">اکانت</a></li>
+                <li class="header__menuItem"><a href="{% url 'logout' %}" class="btn btn--sub">خروج</a></li>
+                {% else %}
+                <li class="header__menuItem"><a href="{% url 'login' %}" class="btn btn--sub">ورود یا ثبت نام</a></li>
+                {% endif %}
+            </ul>
+        </nav>
+    </div>
+</header>
