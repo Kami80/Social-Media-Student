@@ -90,14 +90,14 @@ python manage.py runserver
 Access the application in your web browser at http://127.0.0.1:8000/.
 
 ## Usage
-Register: Sign up to create a new user profile.
-Create Posts: After logging in, users can create posts, apply text formatting, and categorize them using tags.
-Interact: Like and comment on posts to foster community engagement. Users can view their notification feed to keep track of interactions.
-Search: Utilize the search functionality to find posts or connect with other users.
-Future Enhancements
-Direct Messaging: Implement a private messaging feature for users to communicate directly.
-Group Creation: Allow users to create and manage study groups or interest-based communities.
-Analytics Dashboard: Provide insights into user engagement, popular content, and growth metrics.
+- Register: Sign up to create a new user profile.
+- Create Posts: After logging in, users can create posts, apply text formatting, and categorize them using tags.
+- Interact: Like and comment on posts to foster community engagement. Users can view their notification feed to keep track of interactions.
+- Search: Utilize the search functionality to find posts or connect with other users.
+### Future Enhancements
+- Direct Messaging: Implement a private messaging feature for users to communicate directly.
+- Group Creation: Allow users to create and manage study groups or interest-based communities.
+- Analytics Dashboard: Provide insights into user engagement, popular content, and growth metrics.
 ## License
 This project is licensed under the MIT License. See the LICENSE file for more details.
 
