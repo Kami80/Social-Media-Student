@@ -3,6 +3,8 @@
 ## Project Overview
 Social-Media-Student is a dynamic and interactive social networking platform tailored specifically for students. The platform facilitates easy communication, collaboration, and sharing of resources among users. Built using Django, the project showcases full-stack development capabilities and provides an excellent learning environment for aspiring developers. The application allows users to create personalized profiles, share posts, engage with others through comments and likes, and efficiently search for content and users.
 
+![Project Overview](https://github.com/Kami80/Social-Media-Student/blob/main/static/images/Social-Media.png)
+
 ### Goals of the Project:
 - **Enhance communication**: Establish a seamless communication channel for students to share knowledge and resources.
 - **Foster community**: Create an inclusive online environment that encourages collaboration and interaction.
