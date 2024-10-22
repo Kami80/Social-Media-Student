@@ -59,27 +59,33 @@ Social-Media-Student is a dynamic and interactive social networking platform tai
 Make sure you have Python 3.x and pip installed on your machine.
 
 1. **Clone the repository**:
+
    ```bash
    git clone https://github.com/Kami80/Social-Media-Student.git
    cd Social-Media-Student
    ```
-2. **Create a virtual environment**:
+3. **Create a virtual environment**:
+ 
   ```bash
   python -m venv venv
   source venv/bin/activate   # On Windows: venv\Scripts\activate
   ```
 3. **Install dependencies**:
+ 
   ```bash
   pip install -r requirements.txt
   ```
 4. **Apply migrations to set up the database**:
+  
   ```bash
   python manage.py migrate
   ```
 5. **Run the development server**:
+ 
   ```bash
   python manage.py runserver
   ```
+
 Access the application in your web browser at http://127.0.0.1:8000/.
 
 ## Usage
