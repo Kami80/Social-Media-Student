@@ -64,23 +64,19 @@ Make sure you have Python 3.x and pip installed on your machine.
    cd Social-Media-Student
    ```
 2. **Create a virtual environment**:
-
   ```bash
   python -m venv venv
   source venv/bin/activate   # On Windows: venv\Scripts\activate
   ```
 3. **Install dependencies**:
-
   ```bash
   pip install -r requirements.txt
   ```
 4. **Apply migrations to set up the database**:
-
   ```bash
   python manage.py migrate
   ```
 5. **Run the development server**:
-
   ```bash
   python manage.py runserver
   ```
