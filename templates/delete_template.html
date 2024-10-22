@@ -1,0 +1,25 @@
+{% extends 'main.html' %}
+
+{% block content %}
+
+
+<!-- Main Section -->
+<main class="formPage my-xl">
+    <div class="content-box">
+        <div class="formWrapper">
+
+            <br>
+
+            <form class="form" action="" method="POST">
+                {% csrf_token %}
+                <p>   را پاک کنید؟ {{object}} آیا مطمعن هستید که می‌خواهید</p>
+
+                <a class="btn btn--sub btn--lg  my-md" href="{{request.GET.next}}">برگشت</a>
+
+                <input class="btn btn--sub btn--lg  my-md" type="submit" value="تایید" />
+            </form>
+        </div>
+    </div>
+</main>
+
+{% endblock %}
